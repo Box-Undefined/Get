@@ -1,9 +1,18 @@
-# 神奇代码岛图表生成
-<h>示例</h>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<div id="0eea6e101984404d82243fdd2a9c91bd" class="chart-container" style="width:900px; height:500px; "></div>
-<script>
+# 神奇代码岛用户数据分析
+例：
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="0eea6e101984404d82243fdd2a9c91bd" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
         var chart_0eea6e101984404d82243fdd2a9c91bd = echarts.init(
             document.getElementById('0eea6e101984404d82243fdd2a9c91bd'), 'white', {renderer: 'canvas', locale: 'ZH'});
             document.body.style.backgroundColor = "#0d0d0d"
@@ -312,4 +321,6 @@
     }
 };
         chart_0eea6e101984404d82243fdd2a9c91bd.setOption(option_0eea6e101984404d82243fdd2a9c91bd);
-</script>
+    </script>
+</body>
+</html>
